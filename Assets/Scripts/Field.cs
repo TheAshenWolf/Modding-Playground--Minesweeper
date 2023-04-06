@@ -24,6 +24,7 @@ public class Field : MonoBehaviour, IPointerEnterHandler, IPointerClickHandler, 
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if (GameManager.Instance.gameFinished) return;
         switch (eventData.button)
         {
             case PointerEventData.InputButton.Left:

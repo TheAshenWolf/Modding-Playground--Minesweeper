@@ -21,7 +21,7 @@ public class StartGameTab : MonoBehaviour
         startGameButton.onClick.AddListener(StartGame);
     }
 
-    private void StartGame()
+    public virtual void StartGame()
     {
         // Get the selected difficulty
         DifficultyEnum difficulty = (DifficultyEnum) Enum.Parse(typeof(DifficultyEnum), difficultyDropdown.options[difficultyDropdown.value].text);
