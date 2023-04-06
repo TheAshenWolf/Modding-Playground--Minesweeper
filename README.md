@@ -20,4 +20,7 @@ Why should you pick this implementation instead of any other?
 ## Tasks
 
 In case you struggle with ideas what to mod, here are some ideas:
-- Add a "Custom" gamemode, where you can import your own numbers for width, height and the bomb count
+- Add a "Custom" game mode, where you can import your own numbers for width, height and the bomb count
+- Add a detailed display of ones victory
+- Add a button which will lead back to the main menu
+- As custom game mode is still limited by the camera, add zoom functionality and panning
