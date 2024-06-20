@@ -1,0 +1,3 @@
+[submodule "Assets/TextMesh Pro"]
+	path = Assets/TextMesh Pro
+	url = https://github.com/TheAshenWolf/TMPro.git
